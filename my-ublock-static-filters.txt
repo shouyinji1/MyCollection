@@ -10,3 +10,52 @@ blog.csdn.net##.recommend-box
 blog.csdn.net##.recommend-tit-mod
 blog.csdn.net##.insert-baidu-box.recommend-box
 blog.csdn.net##.template-box
+
+! 2021-04-05 https://www.jianshu.com
+www.jianshu.com##header
+www.jianshu.com##.ant-back-top
+www.jianshu.com##footer
+
+! 2021-04-05 https://www.cnblogs.com
+www.cnblogs.com##.forpc.navbar
+www.cnblogs.com###leftmenu
+www.cnblogs.com###top
+www.cnblogs.com###footer
+www.cnblogs.com###under_post_card2
+www.cnblogs.com###under_post_card1
+www.cnblogs.com###ad_t2
+
+! 2021-04-06 https://blog.didispace.com
+blog.didispace.com##div.widget-wrap:nth-of-type(1)
+blog.didispace.com##div.widget-wrap:nth-of-type(4)
+blog.didispace.com##.col-lg-3
+blog.didispace.com##.hidden-sm.hidden-xs.row
+blog.didispace.com###header
+
+! 2021-04-06 https://segmentfault.com
+segmentfault.com##.col-12.col-xl-auto
+segmentfault.com##.col-12.w-0.col-xl > .position-relative > .pt-5.justify-content-center.d-xl-flex.d-none.functional-area-left.sticky-wrap
+segmentfault.com##.font-size-14.py-5.bg-white
+segmentfault.com##.navbar-light.navbar-expand-lg.navbar.sticky-top.shadow-sm.bg-white
+
+! 2021-04-07 https://www.jianshu.com
+www.jianshu.com##._2OwGUo
+www.jianshu.com##section.ouvJEz:nth-of-type(2)
+www.jianshu.com##._3Pnjry
+
+! 2021-04-07 https://stackoverflow.com
+stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+stackoverflow.com##.js-dismissable-hero.z-nav.b0.r0.l0.ps-fixed.bc-black-100.bt.bs-sm.bg-black-025
+
+! 2021-04-08 https://zhidao.baidu.com
+zhidao.baidu.com##.qb-side.grid-r
+zhidao.baidu.com##.wgt-asp-top.last.mod-merger-push.mod-shadow
+zhidao.baidu.com##.question-number-text-chain
+zhidao.baidu.com##.wgt-union-bottom.line.last.mod-shadow.wgt-bottom-union
+zhidao.baidu.com##.ff-arial.ask-info.f-aid.line
+zhidao.baidu.com###j-nav-menu-container
+zhidao.baidu.com##.head-wrap
+zhidao.baidu.com##.userbar-renew.userbar
+zhidao.baidu.com##.wgt-footer-new
+zhidao.baidu.com##.mod-shadow.mt-5.wgt-related
+zhidao.baidu.com##.answerlist.wgt-ads
