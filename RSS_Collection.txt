@@ -1,0 +1,47 @@
+# Debian News
+https://www.debian.org/News/news
+
+# FT
+https://www.ft.com/rss/
+
+# FT中文网-今日焦点
+http://www.ftchinese.com/rss/news
+
+# FT中文网-每日更新
+http://www.ftchinese.com/rss/feed
+
+# Nature
+http://feeds.nature.com/nature/rss/current
+
+# PanSci 泛科學
+https://pansci.asia/feed
+
+# Scientific American
+http://rss.sciam.com/ScientificAmerican-Global
+
+# The Economist 经济学人 经济学家 中文版
+http://blog.ecocn.org/feed
+
+# 财经网全站
+http://www.caijing.com.cn/rss/index.xml
+
+# 环球科学
+https://huanqiukexue.com/data/rss/1.xml
+
+# 极客公园
+http://www.geekpark.net/rss
+
+# 科学网新闻RSS——首页头条
+http://www.sciencenet.cn/xml/news-0.aspx?news=0
+
+# 科学网招生招聘RSS——所有信息
+http://www.sciencenet.cn/xml/classinfo.aspx
+
+# 毛球-汇集互联网热门、有趣内容的图片社区
+https://api.maoqiuapp.com/rss.xml
+
+# 纽约时报中文网 国际纵览
+https://cn.nytimes.com/rss.html
+
+# 月光博客
+http://feed.williamlong.info/
