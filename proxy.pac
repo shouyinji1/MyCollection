@@ -13,7 +13,7 @@ var proxyServers=[
 
 var proxyCombination=[
 	proxyServers[0],
-	proxyServers[0]+proxyServers[5]+proxyServers[3]+proxyServers[1]+proxyServers[2]+proxyServers[4],
+	proxyServers[5]+proxyServers[3]+proxyServers[0]+proxyServers[1]+proxyServers[2]+proxyServers[4],
 	proxyServers[5]+proxyServers[3]+proxyServers[1]+proxyServers[2]+proxyServers[4]+proxyServers[0],
 	proxyServers[2]+proxyServers[4],	// 故意劣化连接
 ];
@@ -47,11 +47,10 @@ var autoProxyDomains={
 	"*.bcadx.com":0,
 	"*.biddingx.com":0,
 	"*.bluebiu.com":0,
-	"*.chaoxing.com":0,
 	"*.chinaz.com":0,
 	"*.clouddn.com":0,
 	"*.cloudfront.net":0,
-	"*.cnbeta.com":0,
+	"*.cnbeta.com":3,
 	"*.cnblogs.com":0, 
 	"*.cnmo.com":0,
 	"*.crsky.com":0,
@@ -66,7 +65,7 @@ var autoProxyDomains={
 	"*.growingio.com":0,
 	"*.gtags.net":0,
 	"*.gtimg.com":0,
-	"*.guokr.com":0,
+	"*.guokr.com":3,
 	"*.haodf.com":0,
 	"*.hupu.com":0,
 	"*.imgcdc.com":0,
@@ -108,7 +107,7 @@ var autoProxyDomains={
 	"*.sjgnskf.com":0,
 	"*.so.com":0,
 	"*.sogou.com":0,
-	"*.sohu.com":0,
+	"*.sohu.com":3,
 	"*.solidot.org":0,
 	"*.sspai.com":0,
 	"*.stg8.com":0,
@@ -134,11 +133,15 @@ var autoProxyDomains={
 	"*.yunshipei.com":0,
 	"*.zhanzhang.net":0,
 
+	"*.51gjie.com":0,
+
 	// Netease
 	"*.126.com":0,
 	"*.126.net":0,
 	"*.127.net":0,
 	"*.163.com":0,
+	"*.163jiasu.com":0,
+	"*.163yun.com":0,
 	"*.netease.com":0,
 	// 中国大学MOOC
 	"*.icourse163.org":0,
@@ -147,6 +150,9 @@ var autoProxyDomains={
 	"*.yodao.com":0,
 	"*.youdao.com":0,
 	
+	// China Mobile
+	"*.139.com":0,
+
 	// 会计知识网
 	"*.23cpc.com":0,
 
@@ -154,8 +160,14 @@ var autoProxyDomains={
 	"*.300hu.com":0,
 	"*.360buyimg.com":0,
 	"*.doubleclick.net":0,
+	"*.edgekey.net":0,
+	"*.jcloudedge.com":0,
 	"*.jd.com":0, 
+	"*.jdcdn.com":0,
+	"*.jomodns.com":0,
 	"*.mediav.com":0,
+	"*.qianxun.com":0,
+	"*.wscdns.com":0,
 
 	// Alibaba
 	"*.aliapp.org":0,
@@ -199,9 +211,17 @@ var autoProxyDomains={
 	// bootstrapmb.com
 	"*.bootstrapmb.com":0,
 
+	// Bootstrap中文网
+	"*.getbootstrap.net":0,
+
 	// BOOX
 	"*.boox.com":0,
 	"*.send2boox.com":0,
+
+        // 超星
+        "*.chaoxing.com":0,
+        "*.aichaoxing.com":0,
+        "*.wswebpic.com":0,
 
 	// China Construction Bank
 	"*.ccb.com":0,
@@ -251,10 +271,10 @@ var autoProxyDomains={
 	"*.ksord.com":0,
 
 	// 凤凰网
-	"*.ifeng.com":0,
+	"*.ifeng.com":3,
 
 	// 爱奇异
-	"*.iqiyi.com":0,
+	"*.iqiyi.com":3,
 	"*.iqiyipic.com":0,
 
 	// 可可英语
@@ -262,6 +282,9 @@ var autoProxyDomains={
 	"*.kekenet.com":0,
 	"*.tanx.com":0,
 	"*.cnzz.com":0,
+	
+	// Lenovo
+	"*.lenovo.com":0,
 
 	// Linux公社
 	"*.linuxidc.com":0,
@@ -276,7 +299,7 @@ var autoProxyDomains={
 	"*.xmcimg.com":0,
 
 	// 水木社区
-	"*.newsmth.net":0,
+	"*.newsmth.net":3,
 
 	// 办公知识网
 	"*.officexr.com":0,
@@ -289,7 +312,7 @@ var autoProxyDomains={
 	"*.oppo.com":0,
 
 	// 360
-	"*.qhimg.com":0,
+	"*.qhimg.com":3,
 	"*.qhimgs0.com":0,
 	"*.qhimgs3.com":0,
 	"*.qhmsg.com":0,
@@ -304,21 +327,24 @@ var autoProxyDomains={
 	// 菜鸟教程
 	"*.runoob.com":0,
 
+	// V2EX
+	"*.v2ex.com":3,
+
 	// 新华网
-	"*.xinhuanet.com":0,
+	"*.xinhuanet.com":3,
 
 	// 优酷
 	"*.cibntv.net.com":0,
 	"*.effirst.com":0,
 	"*.ykimg.com":0,
-	"*.youku.com":0,
+	"*.youku.com":3,
+
+	// 智慧树
+	"*.zhihuishu.com":0,
 
 	// 知乎
-	"*.zhihu.com":0,
-	"*.zhihuishu.com":0,
+	"*.zhihu.com":3,
 	"*.zhimg.com":0,
-	"www.zhihu.com":3,
-
 
 	// Amazon
 	"amazonaws.com":0,
@@ -404,7 +430,7 @@ var autoProxyDomains={
 	"*.archive.org":2,
 
 	// BBC
-	"*.bbc.com":2,
+	"*.bbc.com":3,
 	"*.bbc.co.uk":2,
 	"*.bbci.co.uk":2,
 
@@ -432,12 +458,12 @@ var autoProxyDomains={
 	"*.duckduckgo.com":2,
 
 	// DW News
-	"*.dw.com":2,
+	"*.dw.com":3,
 	"*.dwnews.com":2,
 	"*.dwnews.net":2,
 
 	// Facebook
-	"*.facebook.com":2,
+	"*.facebook.com":3,
 	"*.facebook.net":2,
 
 	// Ever Note
@@ -537,7 +563,7 @@ var autoProxyDomains={
 	"*.wp.com":2,
 
 	// XDA Developers
-	"*.xda-developers.com":2,
+	"*.xda-developers.com":3,
 
 	// 新加坡联合早报
 	"*.zaobao.com":2,
@@ -546,9 +572,9 @@ var autoProxyDomains={
 	"*.gitlab.com":2,
 	"*.geti2p.net":2,
 	"*.medium.com":2,
-	"*.pincong.rocks":2,
-	"*.reuters.com":2,
-	"*.rfi.fr":2,
+	"*.pincong.rocks":3,
+	"*.reuters.com":3,
+	"*.rfi.fr":3,
 	"*.torproject.org":2,
 	"*.w3schools.com":2,
 };
