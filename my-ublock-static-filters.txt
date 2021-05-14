@@ -11,10 +11,8 @@ blog.csdn.net##.recommend-tit-mod
 blog.csdn.net##.insert-baidu-box.recommend-box
 blog.csdn.net##.template-box
 
-! 2021-04-05 https://www.jianshu.com
-www.jianshu.com##header
-www.jianshu.com##.ant-back-top
-www.jianshu.com##footer
+! 2021-04-11 https://cn.bing.com
+cn.bing.com##.ev_talkbox_wrapper_min
 
 ! 2021-04-05 https://www.cnblogs.com
 www.cnblogs.com##.forpc.navbar
@@ -24,6 +22,7 @@ www.cnblogs.com###footer
 www.cnblogs.com###under_post_card2
 www.cnblogs.com###under_post_card1
 www.cnblogs.com###ad_t2
+www.cnblogs.com##body > [href^="https://www.aliyun.com/minisite/goods"]
 
 ! 2021-04-06 https://blog.didispace.com
 blog.didispace.com##div.widget-wrap:nth-of-type(1)
@@ -39,6 +38,9 @@ segmentfault.com##.font-size-14.py-5.bg-white
 segmentfault.com##.navbar-light.navbar-expand-lg.navbar.sticky-top.shadow-sm.bg-white
 
 ! 2021-04-07 https://www.jianshu.com
+www.jianshu.com##header
+www.jianshu.com##footer
+www.jianshu.com##.ant-back-top
 www.jianshu.com##._2OwGUo
 www.jianshu.com##section.ouvJEz:nth-of-type(2)
 www.jianshu.com##._3Pnjry
@@ -59,3 +61,16 @@ zhidao.baidu.com##.userbar-renew.userbar
 zhidao.baidu.com##.wgt-footer-new
 zhidao.baidu.com##.mod-shadow.mt-5.wgt-related
 zhidao.baidu.com##.answerlist.wgt-ads
+
+! 2021-05-01 https://www.zhihu.com
+www.zhihu.com###root > div > div
+
+! 2021-05-10 http://www.weather.com.cn
+www.weather.com.cn##.fr.right
+www.weather.com.cn##div.left-div:nth-of-type(7)
+www.weather.com.cn##.hd-img.left-div
+www.weather.com.cn##.greatEvent
+
+! 2021-05-11 https://superuser.com
+superuser.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+superuser.com##.js-dismissable-hero.ps-relative.sm\:pb24.sm\:pt24.fc-black-200.bg-black-750.py24
