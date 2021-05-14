@@ -4,6 +4,17 @@ tieba.baidu.com
 haokan.baidu.com
 bilibili.com
 
+! 2021-05-14 https://blog.51cto.com
+blog.51cto.com##.group_img_box
+blog.51cto.com##.hktj
+blog.51cto.com##.special-column
+blog.51cto.com##.fix-function.bar1.function-bar
+blog.51cto.com##a.zhiCustomBtn
+blog.51cto.com##.Header
+blog.51cto.com##.self-latest-articles.lbt
+blog.51cto.com##.latest-comment.lbt
+blog.51cto.com##.latest-articles.lbt
+
 ! 2021-04-05 https://blog.csdn.net
 blog.csdn.net##.blog_container_aside
 blog.csdn.net##.recommend-box

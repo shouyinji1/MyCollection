@@ -1,0 +1,20 @@
+# 屏蔽网站
+
+# Baidu
+127.0.0.1	www.baidu.com
+127.0.0.1	m.baidu.com
+127.0.0.1	tieba.baidu.com
+127.0.0.1	haokan.baidu.com
+127.0.0.1	baijiahao.baidu.com
+
+# zhihu
+127.0.0.1	www.zhihu.com
+
+# Bilibili
+127.0.0.1	www.bilibili.com
+
+# Reddit
+127.0.0.1	reddit.com
+
+# Netease
+127.0.0.1	music.163.com
