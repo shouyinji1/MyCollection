@@ -3,6 +3,7 @@
 # Baidu
 127.0.0.1	www.baidu.com
 127.0.0.1	m.baidu.com
+127.0.0.1	news.baidu.com
 127.0.0.1	tieba.baidu.com
 127.0.0.1	haokan.baidu.com
 127.0.0.1	baijiahao.baidu.com
@@ -15,6 +16,9 @@
 
 # Reddit
 127.0.0.1	reddit.com
+
+# 纽约时报中文网
+127.0.0.1	cn.nytimes.com
 
 # Netease
 127.0.0.1	music.163.com
