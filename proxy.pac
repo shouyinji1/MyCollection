@@ -15,7 +15,7 @@ var proxyCombination=[
 	proxyServers[0],
 	proxyServers[5]+proxyServers[3]+proxyServers[0]+proxyServers[1]+proxyServers[2]+proxyServers[4],
 	proxyServers[5]+proxyServers[3]+proxyServers[1]+proxyServers[2]+proxyServers[4]+proxyServers[0],
-	proxyServers[2]+proxyServers[4],	// 故意劣化连接
+	proxyServers[2]+proxyServers[4],	// Deliberately degrade the network
 ];
 
 var autoProxyDomains={
@@ -289,11 +289,6 @@ var autoProxyDomains={
 	// Linux公社
 	"*.linuxidc.com":0,
 
-	// Mozilla
-	// 在中国大陆，Mozilla的百度广告屏蔽插件会不可浏览、不可下载
-	"*.mozilla.org":0,
-	"*.mozilla.net":0,
-
 	// 小木虫
 	"*.muchong.com":0,
 	"*.xmcimg.com":0,
@@ -326,6 +321,10 @@ var autoProxyDomains={
 
 	// 菜鸟教程
 	"*.runoob.com":0,
+
+	// Sina
+	"*.sina.com.cn":3,
+	"*.sina.cn":3,
 
 	// V2EX
 	"*.v2ex.com":3,
@@ -431,8 +430,8 @@ var autoProxyDomains={
 
 	// BBC
 	"*.bbc.com":3,
-	"*.bbc.co.uk":2,
-	"*.bbci.co.uk":2,
+	"*.bbc.co.uk":3,
+	"*.bbci.co.uk":3,
 
 	// BTC Clicks
 	"*.coinad.com":2,
@@ -459,8 +458,8 @@ var autoProxyDomains={
 
 	// DW News
 	"*.dw.com":3,
-	"*.dwnews.com":2,
-	"*.dwnews.net":2,
+	"*.dwnews.com":3,
+	"*.dwnews.net":3,
 
 	// Facebook
 	"*.facebook.com":3,
@@ -536,8 +535,8 @@ var autoProxyDomains={
 	"*.twimg.com":2,
 
 	// VOA
-	"*.voachinese.com":2,
-	"*.voanews.com":2,
+	"*.voachinese.com":3,
+	"*.voanews.com":3,
 
 	// VPN Gate
 	"*.vpngate.net":2,
@@ -565,9 +564,9 @@ var autoProxyDomains={
 	// XDA Developers
 	"*.xda-developers.com":3,
 
-	// 新加坡联合早报
-	"*.zaobao.com":2,
-	"*.zaobao.com.sg":2,
+	// Lianhe Zaobao
+	"*.zaobao.com":3,
+	"*.zaobao.com.sg":3,
 
 	"*.gitlab.com":2,
 	"*.geti2p.net":2,
@@ -585,13 +584,13 @@ function FindAutoProxyID(host, hosts) {
 	if (proxyCombination[proxyCombIndex]) {
 		return proxyCombIndex;
 	}
-	var hostParts = host.split('.'), testHost = [];
+	var hostParts = host.split('.');
 	while (hostParts.length) {
-		testHost.unshift(hostParts.pop());
-		proxyCombIndex=hosts["*."+testHost.join('.')];
+		proxyCombIndex=hosts["*."+hostParts.join('.')];
 		if (proxyCombination[proxyCombIndex]) {
 			return proxyCombIndex;
 		}
+		hostParts.shift();
 	}
 	return 1;	// Default proxy
 }
