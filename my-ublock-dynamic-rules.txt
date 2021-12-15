@@ -1,0 +1,67 @@
+no-csp-reports: * true
+no-large-media: * true
+no-large-media: behind-the-scene false
+no-large-media: search.bilibili.com false
+no-large-media: item.jd.com false
+no-large-media: mall.jd.com false
+no-large-media: search.jd.com false
+no-large-media: www.jd.com false
+no-large-media: www.jianguoyun.com false
+no-large-media: cart.taobao.com false
+no-large-media: www.taobao.com false
+no-large-media: xbeibeix.com false
+no-large-media: zhuanlan.zhihu.com false
+no-remote-fonts: * true
+no-remote-fonts: search.bilibili.com false
+no-remote-fonts: item.jd.com false
+no-remote-fonts: mall.jd.com false
+no-remote-fonts: search.jd.com false
+no-remote-fonts: www.jd.com false
+no-remote-fonts: www.jianguoyun.com false
+no-remote-fonts: cart.taobao.com false
+no-remote-fonts: www.taobao.com false
+no-remote-fonts: xbeibeix.com false
+no-scripting: * true
+no-scripting: cashiersa1280.alipay.com false
+no-scripting: cschat-ccs.aliyun.com false
+no-scripting: apps.ankiweb.net false
+no-scripting: pan.baidu.com false
+no-scripting: tieba.baidu.com false
+no-scripting: search.bilibili.com false
+no-scripting: www.bilibili.com false
+no-scripting: yz.chsi.com.cn false
+no-scripting: www.docin.com false
+no-scripting: archiveprogram.github.com false
+no-scripting: translate.google.com false
+no-scripting: www.google.com false
+no-scripting: channel-m.jd.com false
+no-scripting: home.jd.com false
+no-scripting: item.jd.com false
+no-scripting: mall.jd.com false
+no-scripting: order.jd.com false
+no-scripting: passport.jd.com false
+no-scripting: search.jd.com false
+no-scripting: www.jd.com false
+no-scripting: www.jianguoyun.com false
+no-scripting: www.kancloud.cn false
+no-scripting: www.njfu.edu.cn false
+no-scripting: global.pantum.com false
+no-scripting: www.startpage.com true
+no-scripting: buy.taobao.com false
+no-scripting: buyertrade.taobao.com false
+no-scripting: cart.taobao.com false
+no-scripting: item.taobao.com false
+no-scripting: login.taobao.com false
+no-scripting: s.taobao.com false
+no-scripting: www.taobao.com false
+no-scripting: detail.tmall.com false
+no-scripting: xbeibeix.com false
+no-scripting: www.zhihu.com false
+no-scripting: zhuanlan.zhihu.com false
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
