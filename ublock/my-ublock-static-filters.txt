@@ -108,6 +108,8 @@ www.bilibili.com##.ad-floor-exp.ad-report
 www.bilibili.com##.video-card-ad-small.ad-report
 www.bilibili.com##.part-undefined.pop-live-small-mode
 
+search.bilibili.com##.trending
+
 ! 2023-06-05 https://tieba.baidu.com
 tieba.baidu.com##.r-left-sec
 tieba.baidu.com##.clearfix.right-sec
