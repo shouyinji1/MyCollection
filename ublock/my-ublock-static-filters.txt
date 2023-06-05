@@ -15,6 +15,7 @@ blog.csdn.net##.recommend-box
 blog.csdn.net##.recommend-tit-mod
 blog.csdn.net##.insert-baidu-box.recommend-box
 blog.csdn.net##.template-box
+blog.csdn.net###csdn-toolbar
 
 ! 2021-04-11 https://cn.bing.com
 cn.bing.com##.ev_talkbox_wrapper_min
@@ -69,6 +70,13 @@ zhidao.baidu.com##.answerlist.wgt-ads
 
 ! 2021-05-01 https://www.zhihu.com
 www.zhihu.com###root > div > div
+www.zhihu.com##div.Card:nth-of-type(4)
+www.zhihu.com##div.Card:nth-of-type(2)
+www.zhihu.com##.AppBanner.Card
+www.zhihu.com##.css-1ynzxqw
+
+! 2023-01-08 https://zhuanlan.zhihu.com
+zhuanlan.zhihu.com##.css-1ynzxqw
 
 ! 2021-05-10 http://www.weather.com.cn
 www.weather.com.cn##.fr.right
@@ -79,3 +87,33 @@ www.weather.com.cn##.greatEvent
 ! 2021-05-11 https://superuser.com
 superuser.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
 superuser.com##.js-dismissable-hero.ps-relative.sm\:pb24.sm\:pt24.fc-black-200.bg-black-750.py24
+
+! 2023-02-03 https://www.baidu.com
+www.baidu.com##.s-bottom-space
+www.baidu.com##.s-hotsearch-wrapper.s-isindex-wrap
+www.baidu.com###content_right
+
+! 2023-02-13 https://askubuntu.com
+askubuntu.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2023-02-13 https://unix.stackexchange.com
+unix.stackexchange.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2023-06-05 https://www.bilibili.com
+www.bilibili.com##.search-panel
+www.bilibili.com##.recommended-container_floor-aside
+www.bilibili.com##.rec-list
+www.bilibili.com##.recommend-list-v1
+www.bilibili.com##.ad-floor-exp.ad-report
+www.bilibili.com##.video-card-ad-small.ad-report
+www.bilibili.com##.part-undefined.pop-live-small-mode
+
+! 2023-06-05 https://tieba.baidu.com
+tieba.baidu.com##.r-left-sec
+tieba.baidu.com##.clearfix.right-sec
+tieba.baidu.com##.clearfix.l179c10d2d
+tieba.baidu.com##.hover_btn
+tieba.baidu.com##.j_click_close.close_btn
+tieba.baidu.com##.clearfix.top-sec
+tieba.baidu.com##.topic_list_box
+tieba.baidu.com##.suggestion
