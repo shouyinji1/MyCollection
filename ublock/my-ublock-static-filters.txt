@@ -19,6 +19,7 @@ blog.csdn.net###csdn-toolbar
 
 ! 2021-04-11 https://cn.bing.com
 cn.bing.com##.ev_talkbox_wrapper_min
+cn.bing.com##.show_all.scroll_cont
 
 ! 2021-04-05 https://www.cnblogs.com
 www.cnblogs.com##.forpc.navbar
