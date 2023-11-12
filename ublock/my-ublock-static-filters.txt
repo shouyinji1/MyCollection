@@ -16,9 +16,18 @@ blog.csdn.net##.recommend-tit-mod
 blog.csdn.net##.insert-baidu-box.recommend-box
 blog.csdn.net##.template-box
 blog.csdn.net###csdn-toolbar
+blog.csdn.net##.left-toolbox
+blog.csdn.net##.fixed.write-guide-buttom-box
+blog.csdn.net##.csdn-side-toolbar
+blog.csdn.net###kp_box_58
+blog.csdn.net##.common-nps-box.recommend-nps-box
+blog.csdn.net###copyright-box
+blog.csdn.net###toolbarBox
 
 ! 2021-04-11 https://cn.bing.com
 cn.bing.com##.ev_talkbox_wrapper_min
+cn.bing.com##.show_all.scroll_cont
+cn.bing.com###sw_as
 
 ! 2021-04-05 https://www.cnblogs.com
 www.cnblogs.com##.forpc.navbar
@@ -29,6 +38,7 @@ www.cnblogs.com###under_post_card2
 www.cnblogs.com###under_post_card1
 www.cnblogs.com###ad_t2
 www.cnblogs.com##body > [href^="https://www.aliyun.com/minisite/goods"]
+www.cnblogs.com###cnblogs_c1
 
 ! 2021-04-06 https://blog.didispace.com
 blog.didispace.com##div.widget-wrap:nth-of-type(1)
@@ -74,9 +84,14 @@ www.zhihu.com##div.Card:nth-of-type(4)
 www.zhihu.com##div.Card:nth-of-type(2)
 www.zhihu.com##.AppBanner.Card
 www.zhihu.com##.css-1ynzxqw
+www.zhihu.com##.HotQuestions.Card
+www.zhihu.com##.KfeCollection-VipRecommendCard
+www.zhihu.com##.AdBelowMoreAnswers
+www.zhihu.com##.MBannerAd
 
 ! 2023-01-08 https://zhuanlan.zhihu.com
 zhuanlan.zhihu.com##.css-1ynzxqw
+zhuanlan.zhihu.com##.Post-VipRecommendCard.KfeCollection-VipRecommendCard-article.KfeCollection-VipRecommendCard
 
 ! 2021-05-10 http://www.weather.com.cn
 www.weather.com.cn##.fr.right
@@ -92,6 +107,7 @@ superuser.com##.js-dismissable-hero.ps-relative.sm\:pb24.sm\:pt24.fc-black-200.b
 www.baidu.com##.s-bottom-space
 www.baidu.com##.s-hotsearch-wrapper.s-isindex-wrap
 www.baidu.com###content_right
+www.baidu.com##.blank-frame
 
 ! 2023-02-13 https://askubuntu.com
 askubuntu.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
@@ -107,6 +123,7 @@ www.bilibili.com##.recommend-list-v1
 www.bilibili.com##.ad-floor-exp.ad-report
 www.bilibili.com##.video-card-ad-small.ad-report
 www.bilibili.com##.part-undefined.pop-live-small-mode
+www.bilibili.com##.bili-feed4-layout
 
 search.bilibili.com##.trending
 
@@ -119,3 +136,6 @@ tieba.baidu.com##.j_click_close.close_btn
 tieba.baidu.com##.clearfix.top-sec
 tieba.baidu.com##.topic_list_box
 tieba.baidu.com##.suggestion
+
+! 2023-10-31 https://m.baidu.com
+m.baidu.com##.blank-frame
