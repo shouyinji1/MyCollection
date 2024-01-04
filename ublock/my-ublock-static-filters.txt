@@ -23,11 +23,16 @@ blog.csdn.net###kp_box_58
 blog.csdn.net##.common-nps-box.recommend-nps-box
 blog.csdn.net###copyright-box
 blog.csdn.net###toolbarBox
+blog.csdn.net##.false.passport-login-tip-container
+blog.csdn.net##.passport-login-container
 
 ! 2021-04-11 https://cn.bing.com
 cn.bing.com##.ev_talkbox_wrapper_min
 cn.bing.com##.show_all.scroll_cont
 cn.bing.com###sw_as
+
+! 2024-01-04 https://www.bing.com
+www.bing.com##div.hpl:nth-of-type(5)
 
 ! 2021-04-05 https://www.cnblogs.com
 www.cnblogs.com##.forpc.navbar
@@ -108,6 +113,7 @@ www.baidu.com##.s-bottom-space
 www.baidu.com##.s-hotsearch-wrapper.s-isindex-wrap
 www.baidu.com###content_right
 www.baidu.com##.blank-frame
+www.baidu.com###s_wrap
 
 ! 2023-02-13 https://askubuntu.com
 askubuntu.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
@@ -139,3 +145,8 @@ tieba.baidu.com##.suggestion
 
 ! 2023-10-31 https://m.baidu.com
 m.baidu.com##.blank-frame
+
+! 2023-12-21 https://www.sohu.com
+www.sohu.com###right-side-bar
+www.sohu.com##.clear.article-allsee
+www.sohu.com##.groom-read
