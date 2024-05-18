@@ -150,3 +150,7 @@ m.baidu.com##.blank-frame
 www.sohu.com###right-side-bar
 www.sohu.com##.clear.article-allsee
 www.sohu.com##.groom-read
+
+! 2024-05-01 https://zhuanlan.zhihu.com
+zhuanlan.zhihu.com##.css-1wq6v87
+
