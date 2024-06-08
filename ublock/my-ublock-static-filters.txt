@@ -25,11 +25,16 @@ blog.csdn.net###copyright-box
 blog.csdn.net###toolbarBox
 blog.csdn.net##.false.passport-login-tip-container
 blog.csdn.net##.passport-login-container
+blog.csdn.net###treeSkill
 
 ! 2021-04-11 https://cn.bing.com
 cn.bing.com##.ev_talkbox_wrapper_min
 cn.bing.com##.show_all.scroll_cont
 cn.bing.com###sw_as
+cn.bing.com##bing-homepage-feed
+cn.bing.com##.below_sbox
+cn.bing.com##.show.hp_trivia_outer
+cn.bing.com##.nomvs.msnpeek_notob.widget.bottom_row
 
 ! 2024-01-04 https://www.bing.com
 www.bing.com##div.hpl:nth-of-type(5)
@@ -153,4 +158,34 @@ www.sohu.com##.groom-read
 
 ! 2024-05-01 https://zhuanlan.zhihu.com
 zhuanlan.zhihu.com##.css-1wq6v87
+
+! May 26, 2024 https://www.sou.com
+www.sou.com##.ml-24px.mt-12px.overflow-hidden.h-20px.gap-24px.flex-wrap.flex
+www.sou.com##.w-368px.w-full
+www.sou.com###recommend_list
+
+! Jun 8, 2024 https://www.163.com
+www.163.com##div.post_side_mod:nth-of-type(5)
+www.163.com##div.post_side_mod:nth-of-type(14)
+www.163.com##div.post_side_mod:nth-of-type(18)
+www.163.com##div.post_side_mod:nth-of-type(22)
+www.163.com##div.post_side_mod:nth-of-type(26)
+www.163.com##.js-tab-mod.post_side_mod
+www.163.com##.post_side
+www.163.com##.newsapp-qrcode
+www.163.com##.js-tab-mod.post_recommends
+
+! Jun 8, 2024 https://hk.v2ex.com
+hk.v2ex.com##div:nth-of-type(7)
+hk.v2ex.com##div.sep20:nth-of-type(6)
+hk.v2ex.com###Wrapper > .sep20
+hk.v2ex.com##div.sep20:nth-of-type(5)
+hk.v2ex.com##.wwads-vertical.wwads-cn
+hk.v2ex.com###Rightbar
+hk.v2ex.com###Bottom
+
+! Jun 8, 2024 https://www.msn.cn
+www.msn.cn###ViewsPageId-BB1nLMzr > .consumption-page-feed-wrapper
+www.msn.cn###ViewsPageId-BB1nQuV7 > .consumption-page-feed-wrapper
+www.msn.cn###ViewsPageId-BB1nQuTC > .consumption-page-feed-wrapper > desktop-feed-views
 
