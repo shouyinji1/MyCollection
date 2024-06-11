@@ -15,7 +15,9 @@
 -A INPUT -s 172.233.39.161/32 -m state --state NEW -j DROP
 # 2024-06-08 有同时针对两个服务器的一次root ssh访问尝试行为
 -A INPUT -s 65.20.189.35/32 -m state --state NEW -j DROP
-
+# 2024-06-11 有一次无用户名的的ssh访问尝试行为
+-A INPUT -s 111.7.96.151/32 -j DROP
+-A INPUT -s 123.160.221.141/32 -j DROP
 
 # 开放端口
 #-A INPUT -p tcp -m tcp --dport 22 -j ACCEPT
