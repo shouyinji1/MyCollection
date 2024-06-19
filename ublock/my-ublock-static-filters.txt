@@ -189,3 +189,25 @@ www.msn.cn###ViewsPageId-BB1nLMzr > .consumption-page-feed-wrapper
 www.msn.cn###ViewsPageId-BB1nQuV7 > .consumption-page-feed-wrapper
 www.msn.cn###ViewsPageId-BB1nQuTC > .consumption-page-feed-wrapper > desktop-feed-views
 
+! Jun 10, 2024 https://www.myzaker.com
+www.myzaker.com##.right-inner
+
+! Jun 10, 2024 https://sspai.com
+sspai.com##.related-post-wrapper
+sspai.com##.prime__lock__wrapper
+
+! Jun 10, 2024 https://finance.sina.com.cn
+finance.sina.com.cn##.app-viplive
+finance.sina.com.cn##.vip-class
+
+! Jun 10, 2024 https://new.qq.com
+new.qq.com##.RIGHT
+new.qq.com###Recomend
+new.qq.com###PC_News_Stream_1_finance_17037917630_VNGrXUhjYzCu89ImXEBlVkvQ > .normal_ad-item
+
+! Jun 11, 2024 https://www.toutiao.com
+www.toutiao.com##.right-sidebar
+
+! Jun 12, 2024 https://www.myzaker.com
+www.myzaker.com##.mod_relate
+
